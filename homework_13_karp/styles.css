@@ -1,13 +1,18 @@
 body {
-  margin-left: 30%;
-  margin-top: 30%;
+  background-color: #ae5bcc;
 }
 
-div {
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-
   display: inline-block;
   margin: 0.5em;
   animation: scaling 2.5s ease-in-out infinite;
